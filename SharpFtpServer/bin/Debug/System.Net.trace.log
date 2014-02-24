@@ -1,0 +1,47 @@
+System.Net Error: 0 : [4360] Exception in AppDomain#65934242::UnhandledExceptionHandler - Could not find a part of the path 'C:\Utils'..
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileSystemEnumerableIterator`1.CommonInit()
+   at System.IO.FileSystemEnumerableIterator`1..ctor(String path, String originalUserPath, String searchPattern, SearchOption searchOption, SearchResultHandler`1 resultHandler, Boolean checkHost)
+   at System.IO.Directory.EnumerateDirectories(String path)
+   at SharpFtpServer.ClientConnection.ListOperation(NetworkStream dataStream, String pathname) in c:\Users\Dzmitry\Desktop\ксис курсач\SharpFtpServer\ClientConnection.cs:line 1001
+   at SharpFtpServer.ClientConnection.DoDataConnectionOperation(IAsyncResult result) in c:\Users\Dzmitry\Desktop\ксис курсач\SharpFtpServer\ClientConnection.cs:line 927
+   at System.Net.LazyAsyncResult.Complete(IntPtr userToken)
+   at System.Net.ContextAwareResult.CompleteCallback(Object state)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Net.ContextAwareResult.Complete(IntPtr userToken)
+   at System.Net.LazyAsyncResult.ProtectedInvokeCallback(Object result, IntPtr userToken)
+   at System.Net.Sockets.BaseOverlappedAsyncResult.CompletionPortCallback(UInt32 errorCode, UInt32 numBytes, NativeOverlapped* nativeOverlapped)
+   at System.Threading._IOCompletionCallback.PerformIOCompletionCallback(UInt32 errorCode, UInt32 numBytes, NativeOverlapped* pOVERLAP)
+System.Net Error: 0 : [3296] Exception in AppDomain#12547953::UnhandledExceptionHandler - Could not find a part of the path 'C:\Utils'..
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileSystemEnumerableIterator`1.CommonInit()
+   at System.IO.FileSystemEnumerableIterator`1..ctor(String path, String originalUserPath, String searchPattern, SearchOption searchOption, SearchResultHandler`1 resultHandler, Boolean checkHost)
+   at System.IO.Directory.EnumerateDirectories(String path)
+   at SharpFtpServer.ClientConnection.ListOperation(NetworkStream dataStream, String pathname) in c:\Users\Dzmitry\Desktop\ксис курсач\SharpFtpServer\ClientConnection.cs:line 1001
+   at SharpFtpServer.ClientConnection.DoDataConnectionOperation(IAsyncResult result) in c:\Users\Dzmitry\Desktop\ксис курсач\SharpFtpServer\ClientConnection.cs:line 927
+   at System.Net.LazyAsyncResult.Complete(IntPtr userToken)
+   at System.Net.ContextAwareResult.CompleteCallback(Object state)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Net.ContextAwareResult.Complete(IntPtr userToken)
+   at System.Net.LazyAsyncResult.ProtectedInvokeCallback(Object result, IntPtr userToken)
+   at System.Net.Sockets.BaseOverlappedAsyncResult.CompletionPortCallback(UInt32 errorCode, UInt32 numBytes, NativeOverlapped* nativeOverlapped)
+   at System.Threading._IOCompletionCallback.PerformIOCompletionCallback(UInt32 errorCode, UInt32 numBytes, NativeOverlapped* pOVERLAP)
+System.Net Error: 0 : [3580] Exception in AppDomain#12549444::UnhandledExceptionHandler - Unable to read data from the transport connection: Удаленный хост принудительно разорвал существующее подключение..
+   at System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+   at SharpFtpServer.ClientConnection.CopyStream(Stream input, Stream output, Int32 bufferSize) in c:\Users\Dzmitry\Desktop\ксис курсач\SharpFtpServer\ClientConnection.cs:line 31
+   at SharpFtpServer.ClientConnection.CopyStream(Stream input, Stream output) in c:\Users\Dzmitry\Desktop\ксис курсач\SharpFtpServer\ClientConnection.cs:line 67
+   at SharpFtpServer.ClientConnection.StoreOperation(NetworkStream dataStream, String pathname) in c:\Users\Dzmitry\Desktop\ксис курсач\SharpFtpServer\ClientConnection.cs:line 955
+   at SharpFtpServer.ClientConnection.DoDataConnectionOperation(IAsyncResult result) in c:\Users\Dzmitry\Desktop\ксис курсач\SharpFtpServer\ClientConnection.cs:line 927
+   at System.Net.LazyAsyncResult.Complete(IntPtr userToken)
+   at System.Net.ContextAwareResult.CompleteCallback(Object state)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Net.ContextAwareResult.Complete(IntPtr userToken)
+   at System.Net.LazyAsyncResult.ProtectedInvokeCallback(Object result, IntPtr userToken)
+   at System.Net.Sockets.BaseOverlappedAsyncResult.CompletionPortCallback(UInt32 errorCode, UInt32 numBytes, NativeOverlapped* nativeOverlapped)
+   at System.Threading._IOCompletionCallback.PerformIOCompletionCallback(UInt32 errorCode, UInt32 numBytes, NativeOverlapped* pOVERLAP)

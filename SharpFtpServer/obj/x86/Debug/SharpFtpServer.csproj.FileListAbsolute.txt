@@ -1,0 +1,2 @@
+C:\Users\basshari\Downloads\SharpFtpServer (1)\SharpFtpServer\bin\Debug\SharpFtpServer.exe.config
+C:\Users\basshari\Downloads\SharpFtpServer (1)\SharpFtpServer\obj\x86\Debug\ResolveAssemblyReference.cache
